@@ -2,8 +2,8 @@
 export default {
   data() {
     return {
-      name: 'john',
-      surn: 'smit',
+      text: 'page',
+      href: 'page.html',
     };
   },
 };
@@ -12,11 +12,8 @@ export default {
 <template>
 
   <main>
-    <div>{{ name }}</div>
-    <div>{{ surn }}</div>
+    <a href="page.html">page</a>
   </main>
-
-  <RouterView />
 </template>
 
 <style scoped>
