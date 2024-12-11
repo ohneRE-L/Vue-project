@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      arr: [1, 2, 3],
+      obj: { x: 1, y: 2, z: 3 },
     };
   },
 };
@@ -10,7 +10,7 @@ export default {
 
 <template>
   <div>
-    {{ arr.reduce((sum, num) => sum + num, 0) }}
+    {{ obj.x + obj.y + obj.z }}
   </div>
 </template>
 
